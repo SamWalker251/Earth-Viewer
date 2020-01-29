@@ -22,10 +22,7 @@ function startScan()
                 retrieveImages(stored.results[counter].date.slice(0,10));
                 counter++; 
             }
-            
         }
-
-
     }
     xhttp.send();
     while (httpCounter<numQueries){
@@ -41,14 +38,8 @@ function startScan()
                 console.log(imgArray);
             }
         }
-        
-        
     },2000);
-    
 }
-
-
-
 function retrieveImages(date){
     console.log(date);
     var xhttp2 = new XMLHttpRequest();
@@ -73,10 +64,4 @@ function retrieveImages(date){
         }
     }
     xhttp2.send();
-}
-
-
-
-function display(){
-    
 }
