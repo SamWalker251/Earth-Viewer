@@ -1,0 +1,44 @@
+#progressbar {
+    background: red;
+    height: 10px;
+    width: 0%;
+  }
+
+
+img{
+    width: 50%;
+    height:50%
+}
+
+
+.finBut{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius:10px;
+    border-style: solid;
+}
+
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 8px 8px 8px rgba(13, 94, 207, 0.8);
+}
+
+.in{
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+body{
+    background-color: black;
+}
+

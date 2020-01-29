@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Earth Scanner
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <script src = "scanner.js"></script>
+    </head>
+    <body>
+        
+        <center><div>
+            
+            <h1>Longitude:</h1>
+            <input class="in" type = "text" id= "long"><br>
+            <h1>Latitude:</h1>
+            <input class="in" type = "text" id = "lat"><br>
+            <h1>API key</h1>
+            <input class="in" type = "text" id = "apiKey"><br>
+            
+            <img src="earth.jpg" id="image"><br>
+            <button class = "finBut" id="but" onclick="startScan()">Submit</button>
+        </div></center>
+        <div id="progressbar">
+            
+        </div>
+
+    </body>
+
+</html>
