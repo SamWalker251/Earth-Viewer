@@ -60,8 +60,17 @@ function retrieveImages(date){
             console.log(numQueries);
             
             document.getElementById("progressbar").style.width=(httpCounter/(numQueries-1))*100 +"%"
+
+
+
+
+
             httpCounter++
         }
     }
     xhttp2.send();
 }
+
+
+
+
