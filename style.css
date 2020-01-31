@@ -1,6 +1,6 @@
 #progressbar {
     
-    background: red;
+    background-image: linear-gradient(red, blue);
     border-radius: 10px;
     margin-top: 20px;
     height: 20px;
